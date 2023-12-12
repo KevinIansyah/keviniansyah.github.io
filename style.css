@@ -28,7 +28,7 @@ nav{
     top: 0;
     max-width: 1200px;
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -433,6 +433,11 @@ footer .column > a:hover{
   
 
 @media (width < 900px){
+    nav{
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+
     .nav-links {
         display: none;
     }
@@ -482,7 +487,7 @@ footer .column > a:hover{
 @media (width < 600px){
     nav{
         justify-content: space-between;
-        padding: 2rem 42px;
+        padding: 2rem 1rem;
     }
 
     header .image::before{
