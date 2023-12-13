@@ -122,7 +122,6 @@ header{
 header .content h2{
     margin-bottom: 1rem;
     color: #ccc;
-    /* font-size: 1rem; */
     font-weight: 600;
 }
 
@@ -163,7 +162,6 @@ header .image::before{
 }
 
 header .image img{
-    /* max-width: 600px; */
     max-width: 22rem;
     margin: auto;
 }
@@ -206,9 +204,7 @@ section .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: inline-block; */
     background-color: #1e40af;
-    /* padding: 2px 9px; */
     margin-bottom: 1rem;
     font-size: 1.75rem;
     color: #fff;
@@ -224,7 +220,6 @@ section .header{
 
 .features .card p{
     color: #ccc;
-    /* margin-bottom: 1rem; */
 }
 
 .features .card a{
@@ -298,7 +293,6 @@ section .header{
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 600;
-    /* border-bottom: 2px dashed #fff; */
 }
 
 .pricing .card p{
@@ -325,9 +319,6 @@ section .header{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 2rem; */
 }
 
 .sosial-media a {
